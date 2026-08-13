@@ -26,6 +26,7 @@
         }
 
         .background {
+            position: relative;
             width: 100%;
             height: 100%;
             background-image: url("corvejo.jpg");
@@ -33,10 +34,28 @@
             background-position: center center;
             background-repeat: no-repeat;
         }
+
+        .instagram-link {
+            position: absolute;
+            left: 35%;
+            top: 35%;
+            width: 30%;
+            height: 30%;
+            display: block;
+        }
     </style>
 </head>
 
 <body>
-    <div class="background"></div>
+
+    <div class="background">
+        <a
+            href="https://www.instagram.com/corvejooficial/"
+            target="_blank"
+            class="instagram-link"
+            aria-label="Instagram do Corvejo">
+        </a>
+    </div>
+
 </body>
 </html>
